@@ -1,7 +1,7 @@
 # Ecobee Temperature Monitor
 This project utilizes the Ecobee API to poll data from an Ecobee remote temperature sensor. It is currently configured to extract temperature sensor data and outdoor ambient temperature (from the local weather report), though it can easily be expanded to include more data (such as data from from other sensors or the Ecobee thermostat).
 
-# Use Cases/Motivation
+# Use Case/Motivation
 The primary motivation for this project was to monitor the temperature in my beer cellar. I have an extensive beer collection and was experimenting with using a natural root cellar as a temperature-stable environment. I had an extra Ecobee temperature sensor lying around, so as a quick and easy way to determine the viability of the root cellar, I tapped the Ecobee API to monitor temperature inside the cellar as well as outdoor ambient temperature based on the local weather report.
 
 Data was imported to a Google Sheets for visualization:
