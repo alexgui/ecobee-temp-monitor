@@ -11,11 +11,12 @@ Data was imported to a Google Sheets for visualization:
 
 # Getting Started
 To use this code:
-1. Set up your Ecobee: https://www.ecobee.com/home/developer/api/examples/index.shtml
-2. Authenticate your app: https://www.ecobee.com/home/developer/api/examples/ex1.shtml
-3. Copy your Ecobee Access Token, API Key, and Refresh Token into their respective .txt files
-4. Open a Terminal, navigate to the repository, and execute the code:
+1. Download the repo: ```git pull https://github.com/alexgui/temp-monitor-ecobee.git```
+2. Set up your Ecobee: https://www.ecobee.com/home/developer/api/examples/index.shtml
+3. Authenticate your app: https://www.ecobee.com/home/developer/api/examples/ex1.shtml
+4. Copy your Ecobee Access Token, API Key, and Refresh Token into their respective .txt files
+5. Open a Terminal, navigate to the repository, and execute the code:
   
     ```python3 ecobeerequest.py```
     
-5. Data will be written to ```data.txt```, which you can then import to any major spreadsheet tool as a comma dilineated file... or build your own custom parsing tools!
+6. Data will be written to ```data.txt```, which you can then import to any major spreadsheet tool as a comma dilineated file... or build your own custom parsing tools!
